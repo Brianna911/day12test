@@ -3,7 +3,9 @@ package com.example.demo.Entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 
+
 @Entity
+@Table(name = "todolist")
 public class Todo {
 
     @Id
